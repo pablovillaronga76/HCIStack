@@ -1,3 +1,50 @@
 # Azure Stack 
 https://www.youtube.com/watch?v=JkJXEaYnRmA
 
+
+-----------
+
+1- Access to Lenovo 
+2- Model with COST , Rasmus 
+2.2 - Create estmation , comparison ? 
+2.3 - maybe take over the licence application 
+We have the need TSM to be involved for PCR  -  Lets do a Quick PCR 
+3 - Governance plan 
+4- continue with RFS or delete everything 
+5 - start over - service operations , small capacity? 
+6- No budget 
+7-Lenovo to start over 
+7.1 certificates are installed 
+8- Have a commercial discussion with Contoso.local
+9- what is your idea to move to BAU ? 
+10 - Transportation issues - in channel for 2021 
+11 - Technical SME - have a view abd a solution to Contoso.local
+
+Azure Stack skills needed:
+
+Installation of operating tools
+
+Integration for monitoring and alerting
+
+*Enable Azure Stack integration with End-customer Microsoft SCOM in coordination with End-Customer deployment of Azure Stack Management Pack
+*Verification of management monitoring
+·       Installation and integration of cloud services
+·       Establishment of backup services
+*Perform Azure Stack configuration backup to End-Customer provided File share
+Establishment of operational documentation
+Standard Operating Procedures and guides, including upgrade procedures for base installation, firmware, tools, cloud services, etc.
+Installation and configuration of Azure Stack Hub
+Create Operational documentation and recovery procedures
+
+ Guide to assist with operational issues
+
+ RACI and stakeholder list
+·       Advice process for End-Customer Service Desk to contact Hardware Supplier Service Desk in case of incidents
+·       Provisioning of initial Cloud services
+
+Test deploy a sample Azure Resource Manager (ARM) template from the Azure Stack Quick Start Gallery
+
+Setup of initial on prem Azure services, for End-Customer to perform self-service provisioning
+
+2. For Contoso.local, Azure Stack Architect:
+ Strong Azure Stack experience that can be applied to the implementation of a multi-tenant-enabled on-premise AzureStack service at Contoso.local, a major MSP / CSP in the Nordics.
