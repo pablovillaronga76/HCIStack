@@ -1,0 +1,441 @@
+KMD Hi Pablo.
+
+Thank you for taking the time to present yourself yesterday.
+
+ As agreed I have spend a little time to prepare a "package" of relevant documentation from the project and we would like you to take a good look at it, and explain how you would approach the main outstanding objectives of the implementation project. Do not focus too much on details (or lack of), but please explain to us which approach you would take and which methods you would apply.
+
+ The project has a long history, and we have had difficulties to get back on track, since the architect behind the solution left IBM quite suddenly this summer. The project is currently manned by a PM with limited, generic architect support (so no Azure Stack skills).
+
+This goal is to finalize the delivery by resetting the current Azure Stack configuration and:
+
+•Lenovo to rebuild (re-install) the Azure Stack 4 node stack with CSP License agreement setup
+•Add subscription
+•Enable IAAS & PAAS Services
+•Install/configure Vconnect to enable integrate the IAAS capacity to VMware environment (with help from Cloud Assert)
+•KMD (the client) to verify the running solution
+•Prepare governance model how to operate the Azure Stack solution (in BAU)
+•Handover to IBM BAU Operation team (2 SMEs have already been upskilled in Azure Stack, but have no hands-on experience)
+•Close project
+
+Please consider the attached material as account confidential, so it cannot be shared outside of the KMD account.
+
+Don't hesitate if you have any questions. Both Derek and I will try to answer them as quickly as possible (expect the quickest "response time" in Slack).
+
+We are looking forward to working with you.
+
+Med venlig hilsen / Kind regards
+
+Rasmus Bloch
+ Enterprise Architect
+ IBM Global Technology Services, Nordic
+ +45 4120 1587 Mobile
+ rasmus.bloch@ibm.com
+-------------------------------------
+
+25.03
+
+Participants
+Rasmus Skoven
+Rasmus Bloch
+Pavel Entner
+Pablo Villaronga
+Pawel Milkulo
+
+KMD RFS00087 - Background history 
+This RFS Project Scope is about implementing a 4 node Azure Stack Solution that will integrate (capacity) from FMO VMware. 
+To implement this Project support is required by IBM and 3rd party supplier Lenovo and Cloud Assert. This Project started in 2019, but then got a hard stop in summer of 2020 when IBM technical key resource Joydep Sing (Solution designer) stopped his work for IBM.  It has been a challenge for the Account to find new  IBM Azure Stack resources to support and finalize this RFS. The RFS has been on hold for a longer period of time now. 
+
+Recent months the client (KMD) has decided and committed to IBM that they will submit a PCR for IBM to reinstall the Azure Stack. The condition for this will likely be with a CSP license agreement instead of todays EA installed Azure Stack. But how KMD wants to move forward with RFS00087 depends on IBM capacity and knowledge to support Azure Stack to KMD according to Rasmus Bloch, who had recent dialog with Client. 
+
+Agreed on todays meeting for RFS00087
+To do a proper analyze how to move forwared with this RFS the KMD Account need to invoke RFS Manager, Solution team and IT Architect team to review and update the RFS00087 Solution so it meets the latest expection from KMD. When this updated Solution and budget has been approved by Client. It will be the task for IBM PM and IBM's  technical Azure Stack resources to  implement this RFS00087 Solution 
+
+Agreed actions on todays meeting
+Action 1.
+ IBM PM, with support from Rasmus Bloch. Update DPE on the recent RFS000087 SOW status and expectation (Action owner:Thomas Leach)
+Rasmus Bloch will help PM to describe the expectation  by KMD  for a new  RFS Solution,  what needs to be taking into account for an updated solution (possible CSP License agreement setup etc...) Thomas Leach will send this info by email.
+
+Action 2. 
+IBM DPE to setup a meeting with KMD account RFS Manager and decide exactly how to move forward (Action owner: Pawel Milkulko)
+After Pawel Milkulko received email by Thomas Leach, he will invite for a meeting with KMD RFS Manager to agree how to move forward with RFS00087.
+An updated RFS SOW will be required!
+
+Planned to happen 3.
+ IBM Solution team to support with an updated RFS000087 SOW.
+The new SOW for RFS00087 need to  include changes to Solution and the Project budget.
+The TSM will need assistance from IBM IT Architect team for this work.
+
+Planned to happen 4.
+IBM PM and IBM Technical resources to implement the updated RFS00087 Solution.
+IBM togheter with Lenovo and Cloud Assert will update a new Project Plan based on the updated SOW and restart the 
+Installation/configuration of RFS00087.
+
+Ps. Also on the second part of todays meeting IBM PM Thomas Leach together with IT Architect Pablo Villaronga and SME Pavel Entner  discussed the technical details related to RFS00087 implementation. The conclusion was that If the RFS00087 receives an updated SOW which has involved Pablo Villaronga engagement and input, IBM should have confidence to manage and implement RFS00087
+
+
+
+
+
+
+Best regards
+
+Thomas Leach
+
+Project Manager
+Services Delivery Sweden
+Kistagången 6, 16440 Kista
+Mobile: +46707932536
+Email:Thomas.leach@se.ibm.com
+
+
+
+
+-------------------
+
+p25-03-2021
+
+Online Webex:
+https://ibm.webex.com/join/thomas.leach
+
+Dail in for Webex 08-53520600
+Participant Code:  925 879 382#
+
+
+Meeting agenda
+Let us jointy dicuss the SOW that we have today and the activities that project need to manage. Are we confident we can manage the Project based on this
+One deliverable is to create a KMD Azure Stack Governance Plan (runbook that is essential for BAU handover) 
+Looking back at the history of RFS00087 installation in 2019/2020 what can be re-used going forward with reinstallation of RFS00087 Solution based on CSP licenseagreement
+3rd party - What is expected by Lenovo Support - Initial phase
+3rd party - What is expected by CLoud Assert support - Finale phase
+
+
+------------------
+
+KMD 
+Github 
+https://github.ibm.com/Pablo-Villaronga/KMD
+
+-----------
+
+1- Access to Lenovo 
+
+2- Model with COST , Rasmus 
+2.1 - How can i help ? 
+2.2 - Create estmation , comparison ? 
+2.3 - maybe take over the licence application 
+
+We have the need TSM to be involved for PCR 
+Lets do a Quick PCR 
+
+3 - Governance plan 
+4- continue with RFS 
+or delete everything 
+5 - start over - service operations , small capacity? 
+6- No budget 
+7-Lenovo to start over 
+7.1 certificates are installed 
+
+8- Have a commercial discussion with KMD
+9- what is your idea to move to BAU ? 
+10 - Transportation issues - in channel for 2021 
+
+11 - Technical SME - have a view abd a solution to KMD
+
+
+
+---------------
+
+Azure Stack skills needed:
+
+Installation of operating tools
+
+o  Integration for monitoring and alerting
+
+o  Enable Azure Stack integration with End-customer Microsoft SCOM in coordination with End-Customer deployment of Azure Stack Management Pack
+
+o  Verification of management monitoring
+·       Installation and integration of cloud services
+·       Establishment of backup services
+
+o  Perform Azure Stack configuration backup to End-Customer provided File share
+·       Establishment of operational documentation
+
+o  Standard Operating Procedures and guides, including upgrade procedures for base installation, firmware, tools, cloud services, etc.
+·       Installation and configuration of Azure Stack Hub
+
+o  Create Operational documentation and recovery procedures
+
+o  Guide to assist with operational issues
+
+o  RACI and stakeholder list
+·       Advice process for End-Customer Service Desk to contact Hardware Supplier Service Desk in case of incidents
+·       Provisioning of initial Cloud services
+
+o  Test deploy a sample Azure Resource Manager (ARM) template from the Azure Stack Quick Start Gallery
+
+o  Setup of initial on prem Azure services, for End-Customer to perform self-service provisioning
+
+2. For KMD, Azure Stack Architect:
+3N202010195114B - demand tram, Open Seat ID: 4223015 
+3N202010237689S - spend TRAM for the demand.
+Band 8-9 architect.
+Strong Azure Stack experience that can be applied to the implementation of a multi-tenant-enabled on-premise AzureStack service at KMD, a major MSP / CSP in the Nordics.
+
+-----------
+
+Stack with 4 nodes and we will need a SQL PAAS/ IAAS
+
+ HLD LLD diagrams 
+
+O1 -Installation of operating tools 
+O2- Integration for monitoring and alerting 
+O3- Enable Azure Stack integration with End-customer
+O4 - Microsoft SCOM in coordination with End-Customer
+O5 - Deployment of Azure Stack Management Pack 
+O6 - installation and integration of cloud services 
+O7 - Establishment of backup services 
+O8 - Perform Azure Stack configuration backup to End-Customer provided File share 
+O9 - Establishment of operational documentation 
+O10 – Standard Operating Procedures and guides, including upgrade procedures for base installation, firmware, tools, cloud services, etc.
+O11 - Installation and configuration of Azure Stack Hub 
+O12 - Create Operational documentation and recovery procedures o Guide to assist with operational issues 
+O13 - RACI and stakeholder list
+O14 - Advice process for End-Customer Service Desk to contact Hardware Supplier Service Desk in case of incidents  
+O15 - Test deploy a sample Azure Resource Manager (ARM) template from the Azure 
+O16 - Stack Quick Start Gallery o Setup of initial on prem Azure services, for End-Customer to perform self-service provisioning 
+O17  Strong Azure Stack experience that can be applied to the implementation of a multi-tenant-enabled on-premise
+
+
+this are the task i need to start
+
+---------------------------------
+
+PROJECT PLAN - KMD RFS 000087 - Azure Stack Service							
+Anne / Thomas Starck, 14.8.2019							
+Thomas Leach latest update 3.9.2020							
+							
+#	Task 	Status	Owner	Start date	Target date	Dependency	Comment
+1	M0 - RFS Proposal accepted by Customer						
+							
+2	M1 - Project start (M0 +1)						
+							
+3	M2 - Hardware procurement (M1 +6)	Closed	Anne / Thomas		16.8.2019		Confirmed OK by Joydeep
+	- And SW procurement						"Joydeep working on this with Cloud Assert and Procurement ref to meeting 25.7.2019 with Procurement.
+14.8.2019: Holger will work to get CA as a vendor.
+29.8.2019: SHI team Nelly Omokhodion updated Thomas Leach onboarding Cloud Assert Software in progress. 
+17.9.2019: New Software Quote is being shared by SHI, Source SR created, it needs first step approval by next Monday, lead time 3-4 weeks."
+							
+4	Creation of Architectural design documents (High Level and Low Level) for Azure Stack						13.9.2019 Latest status  be updated by oydeep Singh for Thomas Leach
+4.1	M3 - High level design (M1 +3)	Closed	Joydeep		26.7.2019		"Needs to be formally approved by the customer. DRAFT by 26.7.2019.  Target date for final 5.8.2019.
+25.7.2019: Presentation 26.7.2019 to the customer
+14.8.2019: Next version to be sent to the customer by 17.9.2019: Joydeep informed HLD ready and shared within KMD Week 37
+
+"
+4.2	M4 - Low level design (M3 +3)	Ongoing	Joydeep		10.9.2019		"First version 10.9.2019. Will continue until 30.9.2019
+25.7.2019: First HLD and then LLD.
+14.8.2019: Joydeep has started to prepare the LLD. 
+17.9.2019: Joydeep informed LLD will be kept open until the Project is completed"
+							
+5	Install Lenovo hardware and base configuration of Azure Stack						
+5.1	M5 - Hardware delivery and physical setup (M4 +2)	Closed	Joydeep with Lenovo, Peter	To be discussed internally	To be discussed internally		"Requirements: 
+- PO released to Lenovo by 26.7.2019
+- HW should arrive 20.8.2019 to the DC in DK.
+Physical Setup: 
+- DCM request to be sent to the DCM team by 9.8.2019.
+Dates to be discussed internally.
+Lenovo delivery in 3 weeks.
+17.9.2019: Will be updated as soon we get delivery date from Lenovo (after BOND Order confirmed)"
+5.2	Secure sufficient network capacity between Azure Stack and FMO	Closed	Peter	1.8.2019	20.8.2019		"Joydeep & Peter Danielsen - waiting Peter back from vacation
+14.8.2019: Joydeep confirmed that has been verified that the NW capacity exists.
+17.9.2019: Double check with Joydeep this week"
+5.3	Send DCM request to the DC team	Closed	Joydeep and Peter		9.8.2019		17.9.2019: Thomas Leach schedule a meeting with DC site team on 18/9 to make them prepare for HW arrival in DC Ballerup.
+5.4	Rack, install and connect Azure Stack HW delivered to the Customer Location	Closed	DCM team	22.8.2019	30.8.2019		"DCM request to be raised
+14.8.2019: Once PO raised, Lenovo will confirm the serials numbers and the DCM request can be raised by Joydeep. 
+17.9.2019: Thomas Leach schedule a meeting with DC site team on 18/9 to make them prepare for HW arrival in DC Ballerup."
+5.5	Perform network & firewall configuration	Closed	Peter	TBD	TBD		14.8.2019: Will start once the HW has arrived.
+5.6	Perform the complete installation of the base Azure Stack	Closed	Lenovo	TBD	TBD		14.8.2019: Will be planned by Thomas once the HW has arrived. 
+	Pre-Req for the base configuration of Azure Stack by Lenovo						
+5.6.1	"IBM  deployment worksheet minimum 2 weeks prior to deployment.
+"		IBM				
+5.6.2	"Certificates must be ordered, and tested before the Lenovo engineer comes onsite. 
+"		IBM				
+5.6.3	Validate the AAD account to be used for the installation		IBM				
+6	Deployment and configuration of the Azure Stack on a selected OEM certified integrated system						
+6.1	M6 - Configuration of the Management Stack (M5 + 3)	Closed	IBM and Cloud Assert	1.9.2019	20.9.2019		
+	Pre-Req for the base configuration of Azure Stack by Cloud Assert		Cloud Assert				
+6.1.1	Connection to a SQL server		IBM				
+6.1.2	Tenant Subscription		IBM				
+6.1.3 	Certificate		IBM				
+6.1.4	Others		IBM				
+6.1.5 	IBM to provide Cloud assert tech some type of remote access to KMD AzureStack 		IBM				
+All activities above row 36  in grey area are completed according to Joydeep Sing from 3/9 2020 							
+6.2	Configure vConnect Resource Provider on the Azure Stack	To start	Cloud Assert	1.9.2020	To be updated		
+6.3	Integrate Azure Stack with the FMO Production Environment	To start	Cloud Assert	1.9.2020	To be updated		
+6.4	Upload IBM supported base OS images to the Azure Stack Platform Image Repository 	To start	Pawel (Martin Sabransky) with Cloud Assert, Lenovo	1.9.2020	To be updated		
+6.5	Test deploy a sample Azure Resource Manager (ARM) template from the Azure Stack Quick Start Gallery.	To start	Cloud Assert	1.9.2020	To be updated		
+6.6	Basic operation of Azure Stack	To start	(Pawel) BAU teams	1.9.2020	To be updated		
+6.7	Basic operation of native Azure stack PaaS platform	To start	(Pawel) BAU teams	1.9.2020	To be updated		
+6.8	Basic operation of Azure stack IaaS platform	To start	(Pawel) BAU teams	1.9.2020	To be updated		
+6.9	To confirm the BAU team and have it up and running	Ongoing	Pawel (Joydeep)	1.9.2020	To be updated		"17.9.2019: Joydeep was plAnne / Thomasd to have the dialog with Brno team and the team will be confirmed 
+"
+7	Together with customer establish Governance Model for the Azure Stack			1.9.2020	To be updated		
+7.1	Establish Governance Model for the Azure Stack	To start	Pawel (Joydeep) with KMD, Thomas	1.9.2020	To be updated		Finally handover to the BAU teams
+8	M7 - Project closure (M6 +1)	To start	Thomas	1.9.2020	To be updated		
+
+
+--------------
+
+
+HI Tomasz and Per,
+
+We have now for more than two months struggled with getting resources to deliver RFQ-000979 and IBM is still not able to deliver the needed resources. In addition IBM is unable to deliver answer on KMD’s request to extend the RFQ to include a 4th Azure Stack Hub instead of 3 Azure Stack Hub. This is of course not a tenable situation. Therefore we have investigated alternative options.
+
+We would like to change the responsibility of the RFQ so IBM only delivers expert knowledge and detailed design as listed: 
+
+·  Azure Stack Hub (Daniel Persson is already allocated)
+
+·  Network  (Peter Danielsen is already allocated)
+
+·  Detailed design (Mikkel Lottrup is already working on this)
+
+KMD will deliver the gap between the tasks above and Energinet’s requirements using KMD resources.
+
+In addition to the change in scope we also need to modify the price. As KMD are taking over most of the responsibility and related work it is fair that IBM will reduce the price by DKK 250.000 to DKK 44.000. The option for “Operational Handover Option” is no longer relevant as it will be performed by KMD resources.
+
+Please note that the first deliveries on this contract is to be delivered two week from now so you need to get back with an updated SOW and contract no later than Monday 2nd of November.
+
+Venlig hilsen
+
+Jens Munk, Solution Architect
+
+E-mail xzx@kmd.dk  Web www.kmd.dk
+Mobil +4530709628
+
+
+
+Beskyttelse af dine personlige oplysninger er vigtig for os. Her finder du KMD’s Privatlivspolitik, der fortæller, hvordan vi behandler oplysninger om dig.
+
+Protection of your personal data is important to us. Here you can read KMD’s Privacy Policy outlining how we process your personal data. 
+
+Vi gør opmærksom på, at denne e-mail kan indeholde fortrolig information. Hvis du ved en fejltagelse modtager e-mailen, beder vi dig venligst informere afsender om fejlen ved at bruge svarfunktionen. Samtidig beder vi dig slette e-mailen i dit system uden at videresende eller kopiere den. Selvom e-mailen og ethvert vedhæftet bilag efter vores overbevisning er fri for virus og andre fejl, som kan påvirke computeren eller it-systemet, hvori den modtages og læses, åbnes den på modtagerens eget ansvar. Vi påtager os ikke noget ansvar for tab og skade, som er opstået i forbindelse med at modtage og bruge e-mailen. 
+
+Please note that this message may contain confidential information. If you have received this message by mistake, please inform the sender of the mistake by sending a reply, then delete the message from your system without making, distributing or retaining any copies of it. Although we believe that the message and any attachments are free from viruses and other errors that might affect the computer or it-system where it is received and read, the recipient opens the message at his or her own risk. We assume no responsibility for any loss or damage arising from the receipt or use of this message.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+Hello Charlotte,
+
+ 
+
+I spoke to this person https://w3.ibm.com/bluepages/profile.html?uid=ZZ02X1668 who seems to be a good match for you. He's from the ISAT team so you may need to contact Gopi K Napa/India/IBM, - Squad Lead
+
+
+
+
+
+
+----------------
+
+Gert/Allan
+
+@Gert: Ref. below KMD wants to change KMD-REQ-000979 to an RR with already assigned resources and handle actual implementation themselves.
+Apparently they still want this as FP. We need to discuss how to handle (will it be PCR - or do we cancel the original RFS and create a new one).
+
+@Allan: This is obviously not a good situation. On the other hand it solves a big issue currently (both about resource availability and security clearance) 
+In my mind the external hire should continue as we will for sure need the skills moving forward on KMD-REQ-000087 as well as for future opportunities.
+If you think otherwise pls let me know.
+
+----------
+
+
+Hi Allan,
+
+This request from KMD causes me great concern.
+
+I've discussed it with Peter already on our 1:1 call just now, and with Rasmus, and we agree it should be escalated to Jamie Rutledge for immediate attention.  I'm copying Jimmy and Søren here also in agreement with Peter.
+
+As difficult as the situation is, my recommendation is nonetheless that we seek ways to reset this project and re-establish a properly skilled and resourced team to deliver with urgency and aggression - if that is at all possible.  Proper resourcing will need to be resolved immediately.
+
+Some obvious rationale:   
+
+·  KMD states "The option for “Operational Handover Option” is no longer relevant as it will be performed by KMD resources" - KMD taking responsibility for AzureStack is a short step away from them taking responsibility for Public Cloud Management also - at least on Azure
+
+·  There are other solution challenges with Bunny / Energinet (including "managed public cloud") - agreeing may open for similar changes to other parts of the project portfolio with the accompanying credibility hit
+
+·  There's a wider signal effect - agreeing would look very negative in the light of the CaaS project status and next steps we have planned there, and may also open for a similar course of action
+
+It looks at first glance like the offer of an opportunity to relinquish an obligation we're anyway unable to deliver on with the skills we have available (and I include the operate/LCM steady-state phase here).  I'm concerned that if we lose this then we will have a very hard time re-establishing a position of favoured Hybrid Cloud Management partner to KMD.
+
+Med vennlig hilsen/Best regards,
+
+Hi Andre, we have been searching across all CIC's through our contacts and other Cloud related functions for a couple of weeks to identify Azure stack skills without success and very soon this will hit the CEO (and then Bart...). We need them to build an on prem Azure solution for KMD and effectively we need to show we are there multi cloud partner going forward. MCMS have also been involved without success
+Below please find the skills required.. Can you please help engaging the the right people who can help us identify these skills.. For the second bullet below we have a short term solution to leverage the architect we used building the solution (as Subco) and we are bringing the spend request this week however long term we need a solution (also considering Newco...)
+Regards
+ 
+
+
+We have this demand below with very specific Azur skills needs.
+Andre's name was raised has having such kind of skills 
+
+What would be the capability to get Andre lined up to that project ?
+
+Cordialement, Regards,
+
+
+André would be available for the Architect role. Potentially he would need to be associate with a SME, but, please call him directly
+
+
+Best Regards 
+
+
+----------
+Joydeep Singh is an Enterprise Architect working with Cloud Advisory Services covering the UKI and Nordic Markets. 
+His responsibilities include designing solutions based on IBM Cloud, AWS, Azure and Red Hat. 
+
+The role mandates, Joydeep of guiding clients in defining and adopting architectural decisions across all these platforms
+
+His main responsibilities include:
+• Joydeep provides the architectural direction and authority for the technical scope of the Transition and Transformation
+• Works across technical tower teams to identify and correct any delivery gaps in the solution and/or cost case that might impact the delivery of the technical solution
+• Establishes the account architectural governance; an internal Design Authority and a client governance relationship
+• Reviews functional and non-functional requirements needed to develop detailed specifications and ensures that the implementation designs meet requirements Aligns the Tower and/or Service architects
+to the contracted solution and drives the team to deliver the architectural solution design documentation in a timely fashion
+• Works with the partner and vendor technical teams
+
+ for the definition delivery of the architectural designs (e.g., Architectural Solution Documents (ADSs)) for all solution components
+
+\
+
+Copenhagen Area, Capital Region, Denmark
+
+Joydeep Singh is an Enterprise Architect working with Cloud Advisory Services covering the UKI and Nordic Markets. His responsibilities include designing solutions based on IBM Cloud, AWS, Azure and Red Hat. The role mandates, Joydeep of guiding clients in defining and adopting architectural decisions across all these platforms 
+
+
+
+
+
+My name is Pablo Villaronga. I am a Senior Cloud Enginner at IBM . I am part of the Azure Stack Engineering team (Azure Stach HCI) and engage with the community and customers around the world. I am located in Czech Republic. I am focusing on Microsoft technologies, especially cloud and datacenter solutions based on Microsoft Azure, Azure Stack and Windows Server. Opinions are my own.
+
+
+Sponsor 
+
+
