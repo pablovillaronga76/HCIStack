@@ -1,13 +1,13 @@
-# HCIStack
+HCIStack
 
-# A Stack with 4 nodes and we will need a SQL PAAS/ IAAS
+A Stack with 4 nodes and we will need a SQL PAAS/ IAAS
 
-# PROJECT PLAN - RFS 000087 - Azure Stack Service							
-# Pablo Villaronga 14.8.2019							
-# latest update 3.9.2020							
+PROJECT PLAN - RFS 000087 - Azure Stack Service							
+Pablo Villaronga 14.8.2019							
+latest update 3.9.2020							
 
-# HLD Diagrams 
-# LLD Diagrams 
+HLD Diagrams 
+LLD Diagrams 
 
 O1 -Installation of operating tools 
 O2- Integration for monitoring and alerting 
@@ -116,76 +116,76 @@ All activities above row 36  in grey area are completed according to Architect S
 #Agreed on todays meeting for RFS00087
 #To do a proper analyze how to move forwared with this RFS the Contoso.local Account need to invoke RFS Manager, Solution team and IT Architect team to review and update the RFS00087 #Solution so it meets the latest expection from Contoso.local. When this updated Solution and budget has been approved by Client. It will be the task for Provider PM and Provider's  technical Azure #Stack resources t*implement this RFS00087 Solution 
 
-# Agreed actions on todays meeting
-# Action 1. PM, with support from SDM. Update DPE on the recent RFS000087 SOW status and expectation (Action owner:PME)
-# SDM will help PM to describe the expectation  by Contoso.local  for a new  RFS Solution,  what needs to be taking into account for an updated solution (possible CSP License agreement # setup etc...) PME will send this info by email.
+Agreed actions on todays meeting
+Action 1. PM, with support from SDM. Update DPE on the recent RFS000087 SOW status and expectation (Action owner:PME)
+SDM will help PM to describe the expectation  by Contoso.local  for a new  RFS Solution,  what needs to be taking into account for an updated solution (possible CSP License agreement setup etc...) PME will send this info by email.
 
-# Action 2. 
-# DPE to setup a meeting with Contoso.local account RFS Manager and decide exactly how to move forward (Action owner: Pawel Milkulko)
-# After Pawel Milkulko received email by PME, he will invite for a meeting with Contoso.local RFS Manager to agree how to move forward with RFS00087.
-# An updated RFS SOW will be required!
+Action 2. 
+DPE to setup a meeting with Contoso.local account RFS Manager and decide exactly how to move forward (Action owner: Pawel Milkulko)
+After Pawel Milkulko received email by PME, he will invite for a meeting with Contoso.local RFS Manager to agree how to move forward with RFS00087.
+An updated RFS SOW will be required!
 
-# Planned to happen 3.
-# Provider Solution team to support with an updated RFS000087 SOW.
-# The new SOW for RFS00087 need t*include changes to Solution and the Project budget.
-# The TSM will need assistance from Provider IT Architect team for this work.
+Planned to happen 3.
+Provider Solution team to support with an updated RFS000087 SOW.
+The new SOW for RFS00087 need t*include changes to Solution and the Project budget.
+The TSM will need assistance from Provider IT Architect team for this work.
 
-# Planned to happen 4.
-# Provider PM and Provider Technical resources to implement the updated RFS00087 Solution.
-# Provider togheter with Lenovo and Cloud Assert will update a new Project Plan based on the updated SOW and restart the 
-# Installation/configuration of RFS00087.
+Planned to happen 4.
+Provider PM and Provider Technical resources to implement the updated RFS00087 Solution.
+Provider togheter with Lenovo and Cloud Assert will update a new Project Plan based on the updated SOW and restart the 
+Installation/configuration of RFS00087.
 
-# Ps. Also on the second part of todays meeting Provider PM PME together with IT Architect Pablo Villaronga and SME Pavel Entner  discussed the technical details related to RFS00087 implementation. The conclusion was that If the RFS00087 receives an updated SOW which has involved Pablo Villaronga engagement and input, Provider should have confidence to manage and implement RFS00087
+Ps. Also on the second part of todays meeting Provider PM PME together with IT Architect Pablo Villaronga and SME Pavel Entner  discussed the technical details related to RFS00087 implementation. The conclusion was that If the RFS00087 receives an updated SOW which has involved Pablo Villaronga engagement and input, Provider should have confidence to manage and implement RFS00087
 
-# Contoso.local 
+Contoso.local 
 #Github 
-# https://github.Provider.com/Pablo-Villaronga/Contoso.local
+https://github.Provider.com/Pablo-Villaronga/Contoso.local
 
 -----------
 
-# 1- Access to Lenovo 
-# 2- Model with COST , Rasmus 
-# 2.2 - Create estmation , comparison ? 
-# 2.3 - maybe take over the licence application 
-# We have the need TSM to be involved for PCR  -  Lets do a Quick PCR 
-# 3 - Governance plan 
-# 4- continue with RFS or delete everything 
-# 5 - start over - service operations , small capacity? 
-# 6- No budget 
-# 7-Lenovo to start over 
-# 7.1 certificates are installed 
-# 8- Have a commercial discussion with Contoso.local
-# 9- what is your idea to move to BAU ? 
-# 10 - Transportation issues - in channel for 2021 
-# 11 - Technical SME - have a view abd a solution to Contoso.local
+1- Access to Lenovo 
+2- Model with COST , Rasmus 
+2.2 - Create estmation , comparison ? 
+2.3 - maybe take over the licence application 
+We have the need TSM to be involved for PCR  -  Lets do a Quick PCR 
+3 - Governance plan 
+4- continue with RFS or delete everything 
+5 - start over - service operations , small capacity? 
+6- No budget 
+7-Lenovo to start over 
+7.1 certificates are installed 
+8- Have a commercial discussion with Contoso.local
+9- what is your idea to move to BAU ? 
+10 - Transportation issues - in channel for 2021 
+11 - Technical SME - have a view abd a solution to Contoso.local
 
-# Azure Stack skills needed:
+Azure Stack skills needed:
 
-# Installation of operating tools
+Installation of operating tools
 
-# Integration for monitoring and alerting
+Integration for monitoring and alerting
 
-# *Enable Azure Stack integration with End-customer Microsoft SCOM in coordination with End-Customer deployment of Azure Stack Management Pack
-# *Verification of management monitoring
-# ·       Installation and integration of cloud services
-# ·       Establishment of backup services
-# *Perform Azure Stack configuration backup to End-Customer provided File share
-# Establishment of operational documentation
-# Standard Operating Procedures and guides, including upgrade procedures for base installation, firmware, tools, cloud services, etc.
-# Installation and configuration of Azure Stack Hub
-# Create Operational documentation and recovery procedures
+*Enable Azure Stack integration with End-customer Microsoft SCOM in coordination with End-Customer deployment of Azure Stack Management Pack
+*Verification of management monitoring
+·       Installation and integration of cloud services
+·       Establishment of backup services
+*Perform Azure Stack configuration backup to End-Customer provided File share
+Establishment of operational documentation
+Standard Operating Procedures and guides, including upgrade procedures for base installation, firmware, tools, cloud services, etc.
+Installation and configuration of Azure Stack Hub
+Create Operational documentation and recovery procedures
 
-#  Guide to assist with operational issues
+ Guide to assist with operational issues
 
-#  RACI and stakeholder list
-# ·       Advice process for End-Customer Service Desk to contact Hardware Supplier Service Desk in case of incidents
-# ·       Provisioning of initial Cloud services
+ RACI and stakeholder list
+·       Advice process for End-Customer Service Desk to contact Hardware Supplier Service Desk in case of incidents
+·       Provisioning of initial Cloud services
 
-# Test deploy a sample Azure Resource Manager (ARM) template from the Azure Stack Quick Start Gallery
+Test deploy a sample Azure Resource Manager (ARM) template from the Azure Stack Quick Start Gallery
 
-# Setup of initial on prem Azure services, for End-Customer to perform self-service provisioning
+Setup of initial on prem Azure services, for End-Customer to perform self-service provisioning
 
-# 2. For Contoso.local, Azure Stack Architect:
-#  Strong Azure Stack experience that can be applied to the implementation of a multi-tenant-enabled on-premise AzureStack service at Contoso.local, a major MSP / CSP in the Nordics.
+2. For Contoso.local, Azure Stack Architect:
+ Strong Azure Stack experience that can be applied to the implementation of a multi-tenant-enabled on-premise AzureStack service at Contoso.local, a major MSP / CSP in the Nordics.
 
 
